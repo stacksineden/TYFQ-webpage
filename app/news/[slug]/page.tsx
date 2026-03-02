@@ -72,7 +72,7 @@ export default async function NewsArticlePage({ params }: { params: Promise<{ sl
         <h1 className="text-4xl font-extrabold text-slate-900 mb-4">Article Not Found</h1>
         <p className="text-slate-600 mb-8">This news release could not be found or has been removed.</p>
         <Link href="/" className="bg-blue-600 text-white px-6 py-3 font-bold hover:bg-blue-700 transition-colors">
-          Return to Home
+          Return to Home.
         </Link>
       </div>
     );
