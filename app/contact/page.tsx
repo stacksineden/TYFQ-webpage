@@ -104,7 +104,7 @@ export default function ContactPage() {
                     <div>
                       <p className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-1">Headquarters</p>
                       <p className="text-slate-600 leading-relaxed">
-                        123 Colloquium Way<br />
+                        No 2, Yemi Farounbi Street, New Bodija<br />
                         Ibadan, Oyo State<br />
                         Nigeria
                       </p>
