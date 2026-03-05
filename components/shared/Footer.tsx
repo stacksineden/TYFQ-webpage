@@ -64,7 +64,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/governance"
+                  href="/about"
                   className="hover:text-blue-400 transition-colors"
                 >
                   Board of Trustees
@@ -81,7 +81,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li>
                 <Link
-                  href="/collaborate"
+             href="/contact"
                   className="hover:text-blue-400 transition-colors"
                 >
                   Partner With Us
@@ -89,7 +89,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/volunteer"
+               href="/contact"
                   className="hover:text-blue-400 transition-colors"
                 >
                   Volunteer

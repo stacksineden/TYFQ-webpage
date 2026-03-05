@@ -21,12 +21,12 @@ export default function AboutPage() {
   ];
 
   const trustees = [
-    "Dr. Yemi Farounbi",
-    "Hon Justin M. Kunle Adeigbe",
+    "Amb. Dr. Yemi Farounbi, OON",
+    "Hon Justice M. Kunle Adeigbe",
     "Mrs Evelyn Farounbi",
     "Mrs Ifeoluwa Adeolu",
     "Chief Mrs Remi Olowu",
-    "Hon. Femi Adebisi",
+    "Hon. Femi Adebisi, JP",
     "Barr. Tolu Ogundeji",
     "Pst. Awodele Oluseun"
   ];
