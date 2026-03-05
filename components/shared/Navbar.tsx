@@ -28,7 +28,7 @@ export default function Navbar() {
                 priority 
                 className="w-auto h-12" 
               />
-              <span className="text-[0.65rem] font-bold text-slate-500 uppercase tracking-widest">
+              <span className="text-[0.65rem] font-extrabold text-slate-500 uppercase tracking-widest">
                 The Yemi Farounbi Colloquium
               </span>
             </Link>
