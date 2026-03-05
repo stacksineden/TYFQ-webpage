@@ -93,7 +93,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <p className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-1">Call Us</p>
-                      <p className="text-slate-600">+234 (0) 123 456 7890</p>
+                      <p className="text-slate-600">+234 (0) 906 141 3071</p>
                     </div>
                   </div>
 
