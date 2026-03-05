@@ -3,7 +3,7 @@
 import { useState } from "react"; // 2. Import useState
 import Link from "next/link";
 import Image from "next/image";
-import { Search, Menu, X } from "lucide-react"; // 3. Import the 'X' icon for closing
+import { Menu, X } from "lucide-react"; // 3. Import the 'X' icon for closing
 
 export default function Navbar() {
   // 4. Create state to track if the menu is open or closed
@@ -28,7 +28,7 @@ export default function Navbar() {
                 priority 
                 className="w-auto h-12" 
               />
-              <span className="text-[0.65rem] font-extrabold text-slate-500 uppercase tracking-widest">
+              <span className="text-[0.68rem] font-extrabold text-black uppercase tracking-widest">
                 The Yemi Farounbi Colloquium
               </span>
             </Link>
@@ -52,12 +52,12 @@ export default function Navbar() {
 
           {/* Utility / Mobile Menu Icons */}
           <div className="flex items-center space-x-5">
-            <button
+            {/* <button
               aria-label="Search"
               className="text-slate-600 hover:text-blue-600 transition-colors"
             >
               <Search className="h-5 w-5" />
-            </button>
+            </button> */}
             
             {/* 5. Attach the click handler to toggle the menu */}
             <button
