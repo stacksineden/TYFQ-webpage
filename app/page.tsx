@@ -4,6 +4,7 @@ import HowWeWork from "@/components/shared/HowWeWork";
 import LatestEventRecordings from "@/components/shared/LatestEventRecordings";
 import LatestInsights from "@/components/shared/LatestInsights";
 import LatestWork from "@/components/shared/LatestWork";
+import MediaGallery from "@/components/shared/MediaGallery";
 import NewsCarousel from "@/components/shared/NewsCarousel";
 import SupportUs from "@/components/shared/SupportUs";
 import TrendingIssues from "@/components/shared/TrendingIssues";
@@ -22,6 +23,7 @@ export default function Home() {
       <DiscoverEvents />
       <TrendingIssues />
       <LatestWork />
+      <MediaGallery />
       <HowWeWork />
       <AboutFounder />
       <SupportUs />

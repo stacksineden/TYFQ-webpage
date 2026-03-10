@@ -87,13 +87,23 @@ export default function ContactPage() {
                     </div>
                   </div>
                   
-                  <div className="flex items-start gap-4">
+                <div className="flex items-start gap-4">
                     <div className="bg-slate-100 p-3 rounded-sm shrink-0">
                       <Phone className="w-6 h-6 text-blue-600" />
                     </div>
                     <div>
-                      <p className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-1">Call Us</p>
-                      <p className="text-slate-600">+234 (0) 906 141 3071</p>
+                      <p className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-2">Call Us</p>
+                      <div className="flex flex-col space-y-2">
+                        <a href="tel:+2349061413071" className="text-slate-600 hover:text-blue-600 transition-colors">
+                          +234 906 141 3071
+                        </a>
+                        <a href="tel:+2348077774880" className="text-slate-600 hover:text-blue-600 transition-colors">
+                          +234 807 777 4880
+                        </a>
+                        <a href="tel:+2348183485233" className="text-slate-600 hover:text-blue-600 transition-colors">
+                          +234 818 348 5233
+                        </a>
+                      </div>
                     </div>
                   </div>
 
